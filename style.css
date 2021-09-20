@@ -30,11 +30,11 @@ html, body {
 }
 
 .side-menu {
-    position: absolute;
+    position: fixed;
     left: 0%;
     float: left;
     width: 20%;
-    height: 100%;
+    min-height: 100vh;
     background-color: #17252A;
     color: #feffff;
     font-family: PublicSansThin, sans-serif;
@@ -131,4 +131,71 @@ h1.bold {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.circle-link :any-link {
+    border: none;
+    background-color: none;
+    background: none;
+    color: inherit;
+    width: 100%;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.circle-link a:hover {
+    border: none;
+    background-color: none;
+    background: none;
+    color: inherit;
+    width: 100%;
+    font-size: inherit;
+    font-family: inherit;
+    opacity: 50%;
+}
+
+div.exp-elem {
+    display: block;
+    margin-left: -18%;
+}
+
+div.exp-elem .date {
+    width: 18%;
+    float: left;
+    font-size: medium;
+}
+
+div.exp-elem i {
+    font-size: 2.5rem;
+    float: left;
+    color: #17252A;
+}
+
+div.exp-elem .title {
+    width: 80%;
+    height: fit-content;
+    margin-left: 25%;
+}
+
+div.exp-descr {
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+
+div.exp-descr b {
+    color: #2b7a78;
+    font-family: PublicSansMedium, sans-serif;
+}
+
+div.back-btn {
+    width: fit-content;
+    height: 150px;
+}
+
+div.back-btn a img {
+    width: 100px;
+}
+
+div.back-btn a img:hover {
+    opacity: 70%;
 }
