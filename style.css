@@ -199,3 +199,20 @@ div.back-btn a img {
 div.back-btn a img:hover {
     opacity: 70%;
 }
+
+div.pub-elem i {
+    font-size: 2rem;
+    float: left;
+    color: #17252A;
+}
+
+div.pub-elem .title {
+    width: 80%;
+    height: fit-content;
+    margin-left: 10%;
+}
+
+div.pub-descr {
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
