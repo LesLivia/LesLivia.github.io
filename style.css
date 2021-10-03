@@ -113,7 +113,7 @@ h1.bold {
 }
 
 .about .circle-link {
-    margin-right: 5%;
+    margin-right: 0%;
     margin-top: 5%;
     position: relative;
     text-align: center;
@@ -123,7 +123,7 @@ h1.bold {
 }
 
 .circle-link .circle-img {
-    width: 90%;
+    width: 70%;
 }
 
 .centered {
