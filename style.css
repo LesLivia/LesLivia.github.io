@@ -118,6 +118,8 @@ h1.bold {
     position: relative;
     text-align: center;
     color: white;
+    font-size: 8pt;
+    font-family: PublicSansBold, sans-serif;
     width: 20%;
     float: left;
 }
@@ -178,11 +180,21 @@ div.exp-elem .title {
 }
 
 div.exp-descr {
-    margin-left: 12%;
+    margin-left: 11%;
     margin-bottom: 10%;
 }
 
 div.exp-descr b {
+    color: #2b7a78;
+    font-family: PublicSansMedium, sans-serif;
+}
+
+div.thesis-descr {
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+div.thesis-descr b {
     color: #2b7a78;
     font-family: PublicSansMedium, sans-serif;
 }
@@ -215,4 +227,8 @@ div.pub-elem .title {
 div.pub-descr {
     margin-left: 12%;
     margin-bottom: 10%;
+}
+
+h3.bold {
+    font-family: PublicSansBold, sans-serif;
 }
