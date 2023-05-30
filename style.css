@@ -68,6 +68,11 @@ html, body {
     margin-top: 20%;
 }
 
+#icon-pic {
+    width: 7%;
+    display: inline-flex;
+}
+
 .side-menu .contacts {
     margin-top: 20%;
 }
